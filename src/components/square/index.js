@@ -4,7 +4,7 @@ import './index.css'
 class Square extends Component {
   render() {
     return (
-      <button className="square" onClick={() => this.props.onClick()}>
+      <button className="square" onClick={this.props.onClick}>
         { this.props.value }
       </button>
     );
